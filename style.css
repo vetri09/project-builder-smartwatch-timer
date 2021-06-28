@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* container */
+#container{
+    display: flex;
+    height: 100vh;
+}
+/* two divs */
+#title{
+    background-color: rgb(45, 47, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 50%;
+}
+/* watch */
+#watch{
+    width: 50%;
+    position: relative;
+}
+/* outer box */
+.outerBox{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    height: 340px;
+    width: 250px;
+    background-color: rgb(71, 71, 71);
+    border-radius: 50px;
+}
+.innerBox{
+    position: absolute;
+    top: 20px;
+    background-color: black;
+    border-radius: 40px;
+    height: 300px;
+    width: 250px;
+}
+.smallTime{
+    position: absolute;
+    color: white;
+    top: 10px;
+    left: 105px;
+}
+/* icons */
+.msg svg{
+    position: absolute;
+    top: 230px;
+    left: 25px;
+    height: 45px;
+}
+.music svg{
+    position: absolute;
+    top: 230px;
+    left: 100px;
+    height: 45px;
+}
+.clock svg{
+    position: absolute;
+    top: 230px;
+    left: 180px;
+}
+/* timer */
+.timer{
+    color: white;
+    position: absolute;
+    top: 55px;
+    left: 27px;
+    font-size: 50px;
+}
+.timer-sec{
+    text-align: center;
+    color: gray;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.timer-icons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.restart{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.play{
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    border-width: 37px;
+    border-color: #202020;
+    background-color: rgb(0, 0, 0);
+    border-width: 15px 0px 15px 27px;
+    border-color: transparent transparent transparent #eeeeee;
+}
+.pause{
+    width: 27px;
+    height: 27px;
+    border-style: double;
+    border-width: 0px 0px 0px 23px;
+    border-color: #ffffff;
+}
+
+.stop{
+    width: 27px;
+    height: 27px;
+    background-color: white;
+    margin-right: 15px;
+}
